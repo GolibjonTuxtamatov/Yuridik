@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.maqola-owner {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.maqola-title{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.maqola-img{
+    height:30%;
+    width:60%;
+    margin:50px 0 50px 0;
+}
+
+.maqola-text h3 {
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maqola-text{
+    padding:20px;
+    background-color:#faf5f5;
+    font-size:16px;
+    font-family:sans-serif;
+}
